@@ -1,0 +1,60 @@
+.btn-default.btn-lang {
+  margin-left: 0.3rem;
+  margin-bottom: 0.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 12px;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  color: white;
+  font-weight: 400;
+}
+
+.btn-delete {
+  height: 1.75rem;
+  line-height: 1.75rem;
+  margin-bottom: 0.3rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  font-size: 9px;
+  color: white;
+  font-weight: normal;
+  border-radius: 0 4px 4px 0 !important;
+  text-decoration: none;
+}
+
+.btn-with-delete {
+  border-radius: 4px 0 0 4px !important;
+}
+
+.btn-translated {
+  background-color: #93c7ee;
+}
+
+.btn-untranslated {
+  background-color: #f095ac;
+}
+
+.btn-translated-selected {
+  background-color: #3b99e0;
+}
+
+.btn-untranslated-selected {
+  background-color: #e33c66;
+}
+
+.btn-translated ~ .btn-delete {
+  background-color: #67b0e7;
+}
+
+.btn-translated ~ .btn-untranslated {
+  background-color: #ea6889;
+}
+
+.btn-translated-selected ~ .btn-delete {
+  background-color: #124870;
+}
+
+.btn-translated ~ .btn-untranslated-selected {
+  background-color: #75112a;
+}
